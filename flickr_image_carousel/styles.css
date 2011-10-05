@@ -1,0 +1,87 @@
+/*
+    Copyright 2010, 2011 Ian Glover
+    
+
+    This file is part of the Flickr Image Carousel (FIC) block for Moodle 2.x
+
+    FIC is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    FIC is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with FIC.  If not, see <http://www.gnu.org/licenses/>.
+
+
+*/
+
+
+.yui-carousel-element li {  
+     height: 63px;   
+     width: 63px;   
+     opacity: 0.9;   
+}  
+
+#flickr_image_carousel {
+        margin: 0; 
+}
+
+.carousel_container {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+ 
+.carousel_spotlight {
+   border: 1px solid #ccc;
+   height: auto;
+   width:200px;
+   text-align: center;
+   overflow:hidden;
+}
+
+div.carousel_spotlight img {
+	/*display:block;
+	margin-left: auto;
+    margin-right: auto;*/
+	max-width: 100%;
+	
+	height: auto;
+	
+}
+
+.yui-carousel-button-disabled {
+	display: none;
+    }
+
+.js-disabled {
+	display:none;
+}
+
+.js-enabled {
+	display:block;
+}
+
+#carousel-noscript {
+	text-align: center;
+	
+}
+
+#carousel-noscript img{
+	max-width: 100%;
+	height: auto;
+}
+
+.carousel_spotlight a {
+	text-decoration: none;
+}
+
+.hidden_extra_button {
+	display: none;
+}	
+
